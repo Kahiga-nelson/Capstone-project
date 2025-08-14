@@ -410,7 +410,7 @@ def load_models():
 
     # --- Price model loading ---
         # --- Price model loading ---
-    file_path = "price_prediction_model_v2.pkl"  # Explicit file name
+    file_path = "price_prediction_model.joblib"  # Explicit file name
 
     if os.path.exists(file_path):
         try:
