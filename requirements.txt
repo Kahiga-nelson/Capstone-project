@@ -17,3 +17,5 @@ pyproj
 fiona
 rtree
 statsmodels
+streamlit
+streamlit-folium
