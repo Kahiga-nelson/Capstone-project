@@ -923,7 +923,7 @@ with tab3:
             st.metric("Total Listings", f"{total_listings:,}")
         
         with col3:
-            avg_rating = data['listings']['review_scores_rating'].mean() if 'review_scores_rating' in data['listings'].columns else 0
+            avg_rating = data['listings']['avg_rating'].mean() if 'avg_rating' in data['listings'].columns else 0
             st.metric("Average Rating", f"{avg_rating:.1f}/5")
         
         with col4:
